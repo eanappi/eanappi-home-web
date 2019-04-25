@@ -14,5 +14,6 @@ a.brand-logo {
 
 #parallax-container-header .row {
   background-color: rgba(0,0,0,.4);
-  width: 100%;
+  padding: 2rem;
+  border-radius: 0rem 5rem;
 }
