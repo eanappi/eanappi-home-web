@@ -5,15 +5,16 @@ const BlockContentText = {
         m('.col.s12', 
           m('h6', 
             m('i.material-icons', 'mode_comment'),
-            ' HELLO EVERYONE'
+            `${vnode.attrs.title}`
           )
         ),
         m('.col.s12', 
-          m('h4', 'Hi! I am Felicity, a multi-disciplinary designer based out of the beautiful New York City and I design beautiful and functional websites and mobile applications.')
+          m('h4', `${vnode.attrs.description}`)
         ),
         m('.col.s12',
           m('address',
-            m('a[href="mailto:eanappi@gmail.com"]', 'eanappi@gmail.com')
+            m(`a[href="mailto:${vnode.attrs.email}"]`, 
+              `${vnode.attrs.email}`)
           )
         ),
       )

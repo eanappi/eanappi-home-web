@@ -1,3 +1,19 @@
+h1 {
+  font-size: 5rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+address a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  font-style: normal;
+  color: #ec1823;
+}
+
 .nav-wrapper a {
   color: #424242;
 }
@@ -10,12 +26,20 @@ a.brand-logo {
 #parallax-container-header {
   min-height: 20rem;
   max-height: 50rem;
+  background-color: rgba(0,0,0,.5);
 }
 
-#parallax-container-header .row {
-  background-color: rgba(0,0,0,.4);
-  padding: 2rem;
-  border-radius: 0rem 5rem;
+#parallax-container-header .parallax {
+}
+
+#parallax-container-header h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+#parallax-container-header h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 #block-content-text-about {
@@ -35,10 +59,3 @@ a.brand-logo {
   font-weight: 400;
 }
 
-#block-content-text-about address a {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
-  font-weight: 300;
-  font-style: normal;
-  color: #ec1823;
-}
