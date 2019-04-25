@@ -11,3 +11,8 @@ a.brand-logo {
   min-height: 20rem;
   max-height: 50rem;
 }
+
+#parallax-container-header .row {
+  background-color: rgba(0,0,0,.4);
+  width: 100%;
+}
