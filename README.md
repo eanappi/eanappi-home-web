@@ -1,2 +1,2 @@
 # eanappi-home-web
-Home site for eanappi freelance startup
+Home site for eanappi freelance startup ...
