@@ -3,7 +3,7 @@ const Home = {
     return m(Layout, [
       m(BlockParallaxText, {
         id: "#parallax-container-header",
-        image: "img/bg-abstract.jpg",
+        image: "img/bg-abstract-web.jpg",
         title: "Alejandro Nappi",
         description: "Web & Creative Developer for the world"   
       }),
