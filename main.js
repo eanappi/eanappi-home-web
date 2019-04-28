@@ -4,6 +4,4 @@ m.route( document.body, '/', {
 })
 
 // Init external components
-document.addEventListener('DOMContentLoaded', () => {
-  M.AutoInit()
-})
+//let BlockParallaxText = document.querySelectorAll('.parallax')

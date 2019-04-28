@@ -1,4 +1,8 @@
 const Home = {
+  oncreate() {
+    let elems = document.querySelectorAll('.parallax')
+    let instances = M.Parallax.init(elems)
+  },
   view() {
     return m(Layout, [
       m(BlockParallaxText, {
@@ -19,6 +23,7 @@ const Home = {
         title: " EXPERIENCIA LABORAL",
         description: "Tengo más de 15 años de experiencia y tuve el placer de trabajar con algunas de las mejores empresas de todo el mundo.",
       }),
+      m(BlockGalleryImageCards),
       m(BlockContentText, {
         id: "#block-content-text-contact",
         title: " ESTAR EN CONTACTO",
