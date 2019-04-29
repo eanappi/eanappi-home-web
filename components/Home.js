@@ -9,7 +9,7 @@ const Home = {
       m(BlockContentText, Db.row2),
       m(BlockGalleryImage),
       m(BlockContentText, Db.row4),
-      m(BlockCollectionAvatarContent),
+      m(BlockCollectionAvatarContent, Db.row5),
       m(BlockContentText, Db.row6),
     ])
   }

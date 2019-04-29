@@ -45,14 +45,17 @@ a.brand-logo {
   background-color: rgba(0,0,0,.5);
 }
 
+.block-collection-avatar-content,
 .block-content-text {
-  padding: 5rem 0;
+  padding: 1rem 0;
 }
 
 #block-content-text-about {
   background-color: #F1F2F2;
 }
 
+#block-collection-avatar-content-skill .collection-item,
+#block-collection-avatar-content-skill,
 #block-content-text-experience {
   background-color: #161515;
 }
@@ -70,3 +73,17 @@ a.brand-logo {
   color: white;
 }
 
+#block-collection-avatar-content-skill .title {
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+
+#block-collection-avatar-content-skill i {
+  color: white;
+}
+
+#block-collection-avatar-content-skill .collection,
+#block-collection-avatar-content-skill .collection li {
+  border-color: rgba(119,119,119,1);
+  border-width: 0 0 1px 0;
+}

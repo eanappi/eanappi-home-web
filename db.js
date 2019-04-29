@@ -20,7 +20,23 @@ const Db = {
     description: "Tengo más de 15 años de experiencia y tuve el placer de trabajar con algunas de las mejores empresas de todo el mundo.",
   },
   row5: {
-
+    id: "#block-collection-avatar-content-skill",
+    title: "",
+    list: [
+      {
+        icon: "devicon-javascript-plain",
+        title: "Javascript"
+      },
+      {
+        icon: "devicon-html5-plain",
+        title: "HTML5"
+      },
+      {
+        icon: "devicon-css3-plain",
+        title: "CSS3"
+      },
+      
+    ]
   },
   row6: {
     id: "#block-content-text-contact",

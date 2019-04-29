@@ -1,6 +1,6 @@
 const BlockCollectionAvatarContent = {
   view(vnode) {
-    return m(`div.block-content-card${vnode.attrs.id ? vnode.attrs.id : ""}`, 
+    return m(`div.block-collection-avatar-content${vnode.attrs.id ? vnode.attrs.id : ""}`, 
       m(".row.container", 
         vnode.attrs.title ? m(".col.s12", 
           m("h6", 
@@ -11,12 +11,16 @@ const BlockCollectionAvatarContent = {
       ),
       m(".row.container",
         m(".col.s12",
-          m(".card.small",
-            m(".card-image", 
-              m("img[src='https://placeimg.com/640/480/animals/grayscale']"),
-              m("span.card-title", "LOLOL")
+          m("ul.collection", vnode.attrs.list.map( (item) => {
+            return m("li.collection-item.avatar.valign-wrapper",
+              [
+                m(`i.medium.${item.icon}`),
+                m("h6.title", 
+                  item.title
+                )
+              ]
             )
-          )
+          }))
         )
       )
     )
