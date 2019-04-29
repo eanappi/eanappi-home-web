@@ -35,6 +35,14 @@ const Db = {
         icon: "devicon-css3-plain",
         title: "CSS3"
       },
+      {
+        icon: "devicon-github-plain",
+        title: "GITHUB"
+      },
+      {
+        icon: "devicon-linux-plain",
+        title: "LINUX"
+      },
       
     ]
   },
