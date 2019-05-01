@@ -8,7 +8,7 @@ const Db = {
   row2: {
     id: "#block-content-text-about",
     title: " HOLA A TODOS",
-    description: "Hola, soy Alejandro, un desarrollador web multidisciplinario con sede en la bella ciudad de Buenos Aires y desarrollo sitios web hermosos y funcionales. Mis desarrollos utilizan una arquitectura moderna para desarrollo web basada en JavaScript en el lado del cliente, API reutilizables y markup precompilado.",
+    description: "Hola, soy Alejandro, un desarrollador web multidisciplinario con sede en la hermosa ciudad de Buenos Aires, desarrollo sitios web estéticos y funcionales con alto rendimiento. Mis desarrollos utilizan una arquitectura moderna basada en JavaScript del lado del cliente, API reutilizables y markup precompilado ( JAMstack ).",
   },
   row3: {
     id: "#parallax-container-works",
@@ -17,7 +17,7 @@ const Db = {
   row4: {
     id: "#block-content-text-experience",
     title: " EXPERIENCIA LABORAL",
-    description: "Tengo más de 15 años de experiencia y tuve el placer de trabajar con algunas de las mejores empresas de todo el mundo.",
+    description: "Tengo más de 15 años de experiencia y tuve el placer de trabajar con algunas de las mejores empresas e instituciones gubernamentales de la Argentina.",
   },
   row5: {
     id: "#block-collection-avatar-content-skill",
@@ -49,7 +49,7 @@ const Db = {
   row6: {
     id: "#block-content-text-contact",
     title: " ESTAR EN CONTACTO",
-    description: "Me encanta escuchar y estoy ansioso por hablar con usted sobre su proyecto. Póngase en contacto si tiene alguna consulta y le responderé lo antes posible.",
+    description: "Me encanta conocer e impulsar nuevos proyectos, estoy ansioso por hablar con usted sobre ellos. Póngase en contacto a través de alguna de mis redes sociales si tiene alguna consulta y le responderé lo antes posible.",
   },
   row7: {
     id: "#block-collection-link-icons-contact",
