@@ -14,7 +14,7 @@ const BlockCollectionAvatarContent = {
           m("ul.collection", vnode.attrs.list.map( (item) => {
             return m("li.collection-item.avatar.valign-wrapper",
               [
-                m(`i.medium.${item.icon}`),
+                m(`i.fab.fa-5x.${item.icon}`),
                 m("h6.title", 
                   item.title
                 )

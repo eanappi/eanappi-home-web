@@ -9,7 +9,6 @@ const Db = {
     id: "#block-content-text-about",
     title: " HOLA A TODOS",
     description: "Hola, soy Alejandro, un desarrollador web multidisciplinario con sede en la bella ciudad de Buenos Aires y desarrollo sitios web hermosos y funcionales. Mis desarrollos utilizan una arquitectura moderna para desarrollo web basada en JavaScript en el lado del cliente, API reutilizables y markup precompilado.",
-    email: "eanappi@gmail.com"
   },
   row3: {
 
@@ -24,23 +23,23 @@ const Db = {
     title: "",
     list: [
       {
-        icon: "devicon-javascript-plain",
+        icon: "fa-js",
         title: "Javascript"
       },
       {
-        icon: "devicon-html5-plain",
+        icon: "fa-html5",
         title: "HTML5"
       },
       {
-        icon: "devicon-css3-plain",
+        icon: "fa-css3",
         title: "CSS3"
       },
       {
-        icon: "devicon-github-plain",
+        icon: "fa-github",
         title: "GITHUB"
       },
       {
-        icon: "devicon-linux-plain",
+        icon: "fa-linux",
         title: "LINUX"
       },
       
@@ -50,5 +49,18 @@ const Db = {
     id: "#block-content-text-contact",
     title: " ESTAR EN CONTACTO",
     description: "Me encanta escuchar y estoy ansioso por hablar con usted sobre su proyecto. Póngase en contacto si tiene alguna consulta y le responderé lo antes posible.",
+  },
+  row7: {
+    id: "#block-collection-link-icons-contact",
+    list: [
+      {
+        icon: "fa-linkedin-in",
+        link: "https://ar.linkedin.com/in/eanappi"
+      },
+      {
+        icon: "fa-behance",
+        link: "https://www.behance.net/eanappi"
+      },
+    ]
   }
 }

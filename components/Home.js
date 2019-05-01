@@ -11,6 +11,7 @@ const Home = {
       m(BlockContentText, Db.row4),
       m(BlockCollectionAvatarContent, Db.row5),
       m(BlockContentText, Db.row6),
+      m(BlockCollectionLinkIcons, Db.row7)
     ])
   }
 }
