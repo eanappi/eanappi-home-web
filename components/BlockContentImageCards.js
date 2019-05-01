@@ -1,6 +1,6 @@
 const BlockGalleryImageCards = {
   view(vnode) {
-    return m(`div.block-content-card${vnode.attrs.id ? vnode.attrs.id : ""}`, 
+    return m(`div.scrollspy.block-content-card${vnode.attrs.id ? vnode.attrs.id : ""}`, 
       m(".row.container", 
         vnode.attrs.title ? m(".col.s12", 
           m("h6", 

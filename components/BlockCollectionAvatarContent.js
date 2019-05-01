@@ -1,6 +1,6 @@
 const BlockCollectionAvatarContent = {
   view(vnode) {
-    return m(`div.block-collection-avatar-content${vnode.attrs.id ? vnode.attrs.id : ""}`, 
+    return m(`div.scrollspy.block-collection-avatar-content${vnode.attrs.id ? vnode.attrs.id : ""}`, 
       m(".row.container", 
         vnode.attrs.title ? m(".col.s12", 
           m("h6", 

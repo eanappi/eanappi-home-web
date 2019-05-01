@@ -1,6 +1,6 @@
 const BlockParallaxText = {
   view(vnode) {
-    return m(`div.parallax-container.white-text.valign-wrapper${vnode.attrs.id}`, 
+    return m(`div.scrollspy.parallax-container.white-text.valign-wrapper${vnode.attrs.id}`, 
       m("div.parallax", 
         m(`img[src="${vnode.attrs.image}"]`)
       ),

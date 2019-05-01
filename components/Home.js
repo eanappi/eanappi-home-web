@@ -1,7 +1,10 @@
 const Home = {
   oncreate() {
-    let elems = document.querySelectorAll('.parallax')
-    let instances = M.Parallax.init(elems)
+    let elParallax = document.querySelectorAll('.parallax')
+    let instancesParallax = M.Parallax.init(elParallax)
+    
+    var elScrollspy = document.querySelectorAll('.scrollspy');
+    var instancesScrollspy = M.ScrollSpy.init(elScrollspy);
   },
   view() {
     return m(Layout, [

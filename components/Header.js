@@ -1,41 +1,38 @@
 const Header = {
   view() {
-    return m('nav.white', 
-      m('div.nav-wrapper.container',
-        [
-          m('a.brand-logo[href="#"]', 
-            'EANAPPI'
-          ),
-          m('ul.right.hide-on-med-and-down[id="nav-mobile"]',
-            [
-              m('li', 
-                m('a[href="#"]', 
-                  'About'
-                )
-              ),
-              m('li', 
-                m('a[href="#"]', 
-                  'Portfolio'
-                )
-              ),
-              m('li', 
-                m('a[href="#"]', 
-                  'Services'
-                )
-              ),
-              m('li', 
-                m('a[href="#"]', 
-                  'Clients'
-                )
-              ),
-              m('li', 
-                m('a[href="#"]', 
-                  'Contact'
-                )
-              ),
-            ]
-          )
-        ]
+    return m(".navbar-fixed", 
+      m('nav.white', 
+        m('div.nav-wrapper.container',
+          [
+            m('a.brand-logo[href="#"]', 
+              'EANAPPI'
+            ),
+            m('ul.table-of-contents.right.hide-on-med-and-down[id="nav-mobile"]',
+              [
+                m('li', 
+                  m('a[href="#parallax-container-header"]', 
+                    'Yo'
+                  )
+                ),
+                m('li', 
+                  m('a[href="#parallax-container-works"]', 
+                    'Trabajos'
+                  )
+                ),
+                m('li', 
+                  m('a[href="#block-content-text-experience"]', 
+                    'Experiencia'
+                  )
+                ),
+                m('li', 
+                  m('a[href="#block-content-text-contact"]', 
+                    'Contacto'
+                  )
+                ),
+              ]
+            )
+          ]
+        )
       )
     )
   }
