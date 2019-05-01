@@ -7,7 +7,7 @@ const Home = {
     return m(Layout, [
       m(BlockParallaxText, Db.row1),
       m(BlockContentText, Db.row2),
-      m(BlockGalleryImage),
+      m(BlockParallaxText, Db.row3),
       m(BlockContentText, Db.row4),
       m(BlockCollectionAvatarContent, Db.row5),
       m(BlockContentText, Db.row6),

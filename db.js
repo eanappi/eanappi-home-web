@@ -11,7 +11,8 @@ const Db = {
     description: "Hola, soy Alejandro, un desarrollador web multidisciplinario con sede en la bella ciudad de Buenos Aires y desarrollo sitios web hermosos y funcionales. Mis desarrollos utilizan una arquitectura moderna para desarrollo web basada en JavaScript en el lado del cliente, API reutilizables y markup precompilado.",
   },
   row3: {
-
+    id: "#parallax-container-works",
+    image: "img/bg-works-web.png",
   },
   row4: {
     id: "#block-content-text-experience",
