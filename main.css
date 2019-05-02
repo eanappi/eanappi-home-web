@@ -97,3 +97,9 @@ a.brand-logo {
 #block-collection-link-icons-contact i {
   margin: 0 2rem;
 }
+
+@media (width < 500px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
