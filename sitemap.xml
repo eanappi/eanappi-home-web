@@ -8,9 +8,58 @@
 
 
 <url>
-  <loc>https://eanappi.thesite.xyz/</loc>
-  <lastmod>2019-07-23T13:27:23+00:00</lastmod>
+  <loc>https://eanappi.top/</loc>
+  <lastmod>2019-07-23T14:43:02+00:00</lastmod>
   <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://eanappi.top/?ND</loc>
+  <lastmod>2019-07-23T14:43:02+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eanappi.top/?MA</loc>
+  <lastmod>2019-07-23T14:43:02+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eanappi.top/?SA</loc>
+  <lastmod>2019-07-23T14:43:02+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eanappi.top/?DA</loc>
+  <lastmod>2019-07-23T14:43:02+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://eanappi.top/?NA</loc>
+  <lastmod>2019-07-23T14:43:02+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://eanappi.top/?MD</loc>
+  <lastmod>2019-07-23T14:43:02+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://eanappi.top/?SD</loc>
+  <lastmod>2019-07-23T14:43:02+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://eanappi.top/?DD</loc>
+  <lastmod>2019-07-23T14:43:02+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
 </url>
 
 
